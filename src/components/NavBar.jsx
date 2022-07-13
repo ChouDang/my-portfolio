@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { Navbar, Container, Nav } from "react-bootstrap"
 
-import logo from "../assets/img/logo.svg"
+import logo from "../assets/img/LOGOCHOUDANG.png";
 import navIcon1 from "../assets/img/nav-icon1.svg"
 import navIcon2 from "../assets/img/nav-icon2.svg"
 import navIcon3 from "../assets/img/nav-icon3.svg"
@@ -46,11 +46,14 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={navIcon1} alt="" /></a>
-                            <a href="#"><img src={navIcon2} alt="" /></a>
-                            <a href="#"><img src={navIcon3} alt="" /></a>
+
+                            <a href="https://fb.com/chou.dang98/" target="_blank" ><img src={navIcon2} /></a>
+
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}><span>Let’s Connect</span></button>
+
+                        <a href="https://www.topcv.vn/xem-cv/Bw5SDFVSAlxaA1ADBAoHA1dRAVcAU1IDXlVUUg2db7" target="_blank"><button className="vvd"
+                        ><span>My CV</span></button>
+                        </a>
                     </span>
                 </Navbar.Collapse>
             </Container>

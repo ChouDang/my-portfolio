@@ -3,6 +3,8 @@ const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 
+require("dotenv").config()
+
 // server used to send send emails
 const app = express();
 app.use(cors());

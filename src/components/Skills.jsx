@@ -2,9 +2,10 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../assets/img/react-logo.png";
+import meter2 from "../assets/img/front-end.png";
+import meter3 from "../assets/img/bootstrap-logo.png";
+import meter4 from "../assets/img/clipart2918729.png";
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
@@ -35,24 +36,27 @@ export const Skills = () => {
                 <Row>
                     <Col>
                         <div className="skill-bx">
-                            <h2>skills</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consequuntur explicabo labore, laudantium accusantium praesentium unde eos exercitationem fugiat aspernatur.</p>
+                            <h2>Skills</h2>
+                            <p>Try to Be Better.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider" >
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5>Web Developer</h5>
+                                    <img style={{ height: 160, width: 320 }} src={meter1} alt="Image" />
+                                    <h5>ReactJS</h5>
                                 </div>
+
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
-                                    <h5>Brand Indetity</h5>
+                                    <img src={meter4} alt="Image" />
+                                    <h5>Ant Design</h5>
                                 </div>
+
                                 <div className="item">
                                     <img src={meter3} alt="Image" />
-                                    <h5>Logo Design</h5>
+                                    <h5>Bootstrap</h5>
                                 </div>
+
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5>Web Developer</h5>
+                                    <img style={{ height: 160 }} src={meter2} alt="Image" />
+                                    <h5>HTML/CSS/JS</h5>
                                 </div>
                             </Carousel>
                         </div>
